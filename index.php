@@ -19,9 +19,9 @@
                 <li>
                     <?php
                         foreach ($values as $data => $text) {
-                            if ($data === true) {
+                            if ($text === true) {
                                 $text = "Sì";
-                            } else if ($data === false) {
+                            } else if ($text === false) {
                                 $text = "No";
                             };
                             ?>
