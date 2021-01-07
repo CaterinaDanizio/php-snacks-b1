@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container {
+    background-image: url('https://karaandnate.com/wp-content/uploads/2018/10/OE9RQF0.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: #a71a1a;
+}
+li {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    background-color:rgba(240, 248, 255, 0.5)
+}
